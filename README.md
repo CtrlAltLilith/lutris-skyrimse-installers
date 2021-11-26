@@ -1,3 +1,8 @@
+## Fork fixes 
+- v.5.0 hard coding disabled 
+-  fix newer proton versions by CrezyDud
+-  Steamapps path finding fix
+
 ## Introduction
 
 This project aims to make modding and playing Bethesda games on Linux as easy as possible. It does that by providing Lutris installers which automatically setup a working experience for the user.
