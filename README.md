@@ -9,7 +9,6 @@
 
 ## How to Install 
 
-NOTE: current bug: using the archive manager to install mods crashes mo2, i'm looking into this. https://github.com/CtrlAltLilith/lutris-skyrimse-installers/issues/5
 ```bash
 wget https://raw.githubusercontent.com/CtrlAltLilith/lutris-skyrimse-installers/master/installers/modorganizer2.yml
 
