@@ -8,6 +8,7 @@
 - Updated openjdk 
 
 ## How to Install 
+
 ```bash
 wget https://raw.githubusercontent.com/CtrlAltLilith/lutris-skyrimse-installers/master/installers/modorganizer2.yml
 
