@@ -2,7 +2,21 @@
 - v.5.0 hard coding disabled 
 -  fix newer proton versions by CrezyDud
 -  Steamapps path finding fix
+- Updated mo2 to 2.4.2
+- Updated NVSE to xnvse
+- Updated skse64 
+- Updated openjdk 
 
+## How to Install 
+```bash
+wget https://raw.githubusercontent.com/CtrlAltLilith/lutris-skyrimse-installers/master/installers/modorganizer2.yml
+
+lutris -i modorganizer2.yml
+```
+
+NOTE: All patches except for proton 5.0 hard coding will be applied to this installation method.
+
+The gamesinfo release needs to be updated for that to be included, and run.sh will need to be manually edited.
 ## Introduction
 
 This project aims to make modding and playing Bethesda games on Linux as easy as possible. It does that by providing Lutris installers which automatically setup a working experience for the user.

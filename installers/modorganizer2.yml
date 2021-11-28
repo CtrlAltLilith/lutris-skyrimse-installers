@@ -1,7 +1,7 @@
 name: Mod Organizer 2
 game_slug: mod-organizer-2
 slug: mod-organizer-2
-version: 2.2.2.1 Unified Package
+version: 2.4.2 Unified Package
 runner: linux
 
 script:
@@ -10,13 +10,13 @@ script:
     files:
     # utils
     - dialog: https://github.com/rockerbacon/lutris-skyrimse-installers/releases/download/2.8.4-utils/dialog.sh
-    - find_library_for_appid: https://github.com/rockerbacon/lutris-skyrimse-installers/releases/download/2.8.4-utils/find-library-for-appid.sh
+    - find_library_for_appid: https://raw.githubusercontent.com/CtrlAltLilith/lutris-skyrimse-installers/885af24f218ae69fc3b2c659456474c4fee80c97/utils/find-library-for-appid.sh
 
     # supported games info
     - gamesinfo: https://github.com/rockerbacon/lutris-skyrimse-installers/releases/download/2.8.5-gamesinfo/gamesinfo.tar.gz
 
     # mo2/game runners
-    - proton_launcher: https://github.com/rockerbacon/lutris-skyrimse-installers/releases/download/2.8.4-runners/proton-launcher.sh
+    - proton_launcher: https://raw.githubusercontent.com/CrezyDud/lutris-skyrimse-installers/d6fef15db90dbe9b60989cfa0db2ab0454a18f57/runners/proton-launcher.sh
     - wine_launcher: https://github.com/rockerbacon/lutris-skyrimse-installers/releases/download/2.8.4-runners/wine-launcher.sh
 
     # download handlers
@@ -24,18 +24,18 @@ script:
     - nxm_mime_handler: https://github.com/rockerbacon/lutris-skyrimse-installers/releases/download/2.8.6-handlers/modorganizer2-nxm-handler.desktop
 
     # modding tools
-    - openjdk: https://github.com/AdoptOpenJDK/openjdk8-upstream-binaries/releases/download/jdk8u252-b09/OpenJDK8U-jre_x64_windows_8u252b09.zip
+    - openjdk: https://github.com/AdoptOpenJDK/openjdk8-upstream-binaries/releases/download/jdk8u312-b07/OpenJDK8U-jre_x64_windows_8u312b07.zip
 
     - fose: https://www.fose.silverlock.org/download/fose_v1_2_beta2.7z
     - f4se: https://f4se.silverlock.org/beta/f4se_0_06_21.7z
-    - nvse: http://nvse.silverlock.org/download/nvse_5_1_beta4.7z
+    - nvse: https://github.com/xNVSE/NVSE/releases/download/6.2.4/nvse_6_2_4.7z
     - mwse: https://github.com/MWSE/MWSE/releases/download/build-automatic/mwse.zip
     - obse: http://obse.silverlock.org/download/obse_0021.zip
     - skse: https://skse.silverlock.org/beta/skse_1_07_03.7z
-    - skse64: https://skse.silverlock.org/beta/skse64_2_00_17.7z
+    - skse64: https://skse.silverlock.org/beta/skse64_2_00_20.7z
 
     # mod organizer
-    - mo_archive: https://github.com/ModOrganizer2/modorganizer/releases/download/v2.2.2.1/Mod.Organizer-2.2.2.1.7z
+    - mo_archive: https://github.com/ModOrganizer2/modorganizer/releases/download/v2.4.2/Mod.Organizer-2.4.2.7z
 
     game:
         exe: $GAMEDIR/run.sh
