@@ -16,8 +16,6 @@ lutris -i modorganizer2.yml
 ```
 
 NOTE: Patched gamesinfo now included in yml!
-
-The gamesinfo release needs to be updated for that to be included, and run.sh will need to be manually edited.
 ## Introduction
 
 This project aims to make modding and playing Bethesda games on Linux as easy as possible. It does that by providing Lutris installers which automatically setup a working experience for the user.
