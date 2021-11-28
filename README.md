@@ -14,7 +14,7 @@ wget https://raw.githubusercontent.com/CtrlAltLilith/lutris-skyrimse-installers/
 lutris -i modorganizer2.yml
 ```
 
-NOTE: All patches except for proton 5.0 hard coding will be applied to this installation method.
+NOTE: Patched gamesinfo now included in yml!
 
 The gamesinfo release needs to be updated for that to be included, and run.sh will need to be manually edited.
 ## Introduction
